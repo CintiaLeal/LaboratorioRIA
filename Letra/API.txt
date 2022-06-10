@@ -1,0 +1,19 @@
+Buenas noches!
+
+Espero se encuentren bien. Les paso acceso a la api para que puedan ir trabajando. Algunas observaciones:
+
+- No está terminada, por ahora solo tienen los endpoints de autenticación, Noticias y Documentos. Pueden ir probando y cualquier cosa me avisan.
+- Por ahora hay una instancia sola, los próximos días les creo una para cada grupo.
+- Pueden acceder a la documentación y la interfaz de swagger de la API accediendo https://ria2022.test.softtero.com/swagger/index.html
+- Cuando vean los métodos "POST" para crear una entidad, van a ver que pide la entidad que corresponda y entre los datos de la entidad está el Id. En la creación el id va con valor 0.
+- Swagger es una UI que sirve para visualizar especificaciones de APIs y también para probar las mismas. Pueden invocar los métodos desde dicha interfaz. Para probar los métodos que requieren autenticación, pueden generar el token con el login y luego en la parte superior en el botón "Authorize" ingresan: Bearer [Token generado], por ejemplo Bearer xxxxxxxxxxxx
+- En el repo: https://gitlab.com/utec-tisj/ria/2022/clase7-start les dejé una componente y servicio "Noticias" con un ejemplo de como utilizar HttpClient en las nuevas versiones de Angular.
+
+
+  "username": "admin",
+  "email": "admin@admin.com",
+  "password": "R1a2022!
+
+
+Cualquier cosa me escriben. Nos vemos el Jueves.
+Saludos!
